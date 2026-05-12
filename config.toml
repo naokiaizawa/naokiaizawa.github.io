@@ -1,0 +1,37 @@
+baseURL = "https://naokiaizawa.github.io/"
+languageCode = "en-us"
+title = "Naoki Aizawa"
+theme = "academic"
+
+# Output formats
+[outputs]
+  home = ["HTML", "JSON"]
+
+# Taxonomies
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+# Permalinks
+[permalinks]
+  blog = "/blog/:slug/"
+  publication = "/publication/:slug/"
+
+# Author information
+[params]
+  author = "Naoki Aizawa"
+  description = "Academic researcher and developer"
+  
+  # Contact information
+  email = "your-email@example.com"
+  phone = ""
+  address = ""
+  
+  # Social media
+  [params.social]
+    twitter = ""
+    github = "naokiaizawa"
+    linkedin = ""
+    google_scholar = ""
+    orcid = ""
+    researchgate = ""
